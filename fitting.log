@@ -1,0 +1,101 @@
+The function takes the following arguments, (x, mu, c0, c1, E_ub, d).
+Then it needs 5 parameters for optimization.
+
+***********************************************************************
+
+===========================================================
+Trial number 0 to get parameters
+`xtol` termination condition is satisfied.
+Number of iterations: 109, function evaluations: 306, CG iterations: 141, optimality: 4.23e-05, constraint violation: 0.00e+00, execution time:  1.4 s.
+ barrier_parameter: 2.048000000000001e-09
+ barrier_tolerance: 2.048000000000001e-09
+          cg_niter: 141
+      cg_stop_cond: 4
+            constr: [array([24.99999946,  5.1983364 , 29.99999999,  0.2       ,  0.92      ])]
+       constr_nfev: [0]
+       constr_nhev: [0]
+       constr_njev: [0]
+    constr_penalty: 1.0
+  constr_violation: 0.0
+    execution_time: 1.3814213275909424
+               fun: 1192.4624864399602
+              grad: array([-1.18682156e+01,  4.40298236e-05, -5.50022173e+02,  0.00000000e+00,
+        4.19186509e+04])
+               jac: [<5x5 sparse matrix of type '<class 'numpy.float64'>'
+	with 5 stored elements in Compressed Sparse Row format>]
+   lagrangian_grad: array([-3.44968498e-12,  4.22722971e-05, -1.13686838e-13,  0.00000000e+00,
+        0.00000000e+00])
+           message: '`xtol` termination condition is satisfied.'
+            method: 'tr_interior_point'
+              nfev: 306
+              nhev: 0
+               nit: 109
+             niter: 109
+              njev: 51
+        optimality: 4.2272297113900206e-05
+            status: 2
+           success: True
+         tr_radius: 1.0000000000000005e-09
+                 v: [array([ 1.18682156e+01, -1.75752653e-06,  5.50022173e+02,  0.00000000e+00,
+       -4.19186509e+04])]
+                 x: array([24.99999946,  5.1983364 , 29.99999999,  0.2       ,  0.92      ])
+The parameters are: 
+[24.99999946  5.1983364  29.99999999  0.2         0.92      ]
+chi-square is: 1192.4624864399602
+The estimated variance is: 
+[[ 59.25376636 -54.01493683]
+ [-54.01493683 139.48998138]]
+ 
+Trial number 1 to get parameters
+`xtol` termination condition is satisfied.
+Number of iterations: 99, function evaluations: 630, CG iterations: 136, optimality: 3.20e-06, constraint violation: 0.00e+00, execution time:  2.7 s.
+ barrier_parameter: 2.048000000000001e-09
+ barrier_tolerance: 2.048000000000001e-09
+          cg_niter: 136
+      cg_stop_cond: 4
+            constr: [array([24.99999807,  5.25854587, 29.99999999,  0.2       ,  0.92      ])]
+       constr_nfev: [0]
+       constr_nhev: [0]
+       constr_njev: [0]
+    constr_penalty: 1.0
+  constr_violation: 0.0
+    execution_time: 2.67077374458313
+               fun: 10.798895722536201
+              grad: array([-3.97186310e-02,  3.33243562e-06, -4.93434430e+00,  0.00000000e+00,
+        3.04126157e+02])
+               jac: [<5x5 sparse matrix of type '<class 'numpy.float64'>'
+	with 5 stored elements in Compressed Sparse Row format>]
+   lagrangian_grad: array([-1.43975110e-13,  3.20166885e-06, -8.88178420e-16,  0.00000000e+00,
+        0.00000000e+00])
+           message: '`xtol` termination condition is satisfied.'
+            method: 'tr_interior_point'
+              nfev: 630
+              nhev: 0
+               nit: 99
+             niter: 99
+              njev: 105
+        optimality: 3.201668853102469e-06
+            status: 2
+           success: True
+         tr_radius: 1.0000000000000005e-09
+                 v: [array([ 3.97186310e-02, -1.30766763e-07,  4.93434430e+00,  0.00000000e+00,
+       -3.04126157e+02])]
+                 x: array([24.99999807,  5.25854587, 29.99999999,  0.2       ,  0.92      ])
+The parameters are: 
+[24.99999807  5.25854587 29.99999999  0.2         0.92      ]
+chi-square is: 10.798895722536201
+ 
+The parameters are: 
+[24.99999807  5.25854587 29.99999999  0.2         0.92      ]
+
+***********************************************************************
+
+Determination Coefficient R2: [0.99586772 0.9798448 ]
+This is the correlation: 
+[[ 1.         -0.77660198  0.66261053]
+ [-0.77660198  1.         -0.98419107]
+ [ 0.66261053 -0.98419107  1.        ]]
+Over-parameterization: False, det(R) = 0.0021038240178624145
+
+***********************************************************************
+
